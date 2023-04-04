@@ -7,9 +7,19 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- form per input parola -->
     <form action="index2.php" method="GET">
-        <input type="text" name="word">
+        <div>
+            <!-- invia a $text  -->
+            <input type="text" name="text" placeholder="inserisci un testo">
+        </div>
+        <div>
+            <!-- invia a $banner_word  -->
+            <input type="text " name="ban" placeholder="inserisci la parola da censurare">
+        </div>
         <button>Invia</button>
+        
     </form>
+    
 </body>
 </html>
